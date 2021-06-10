@@ -3,8 +3,8 @@
 # - you can call them from other places inside your program
 # - we can give methods information, they can give us information back
 
-def sayhi
-    puts "Hello User"
+def sayhi(name, age)
+    puts ("Hello User" + name + ", you are" + age.to_s)
 end
 
-sayhi
+sayhi("Mike", 73)
